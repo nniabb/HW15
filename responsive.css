@@ -1,0 +1,174 @@
+@media screen and (min-width: 765px) {
+    .header{
+        padding: 5% 5% 8% 5%;
+    }
+    .top{
+        display: flex;
+    }
+    .firstimg{
+       display: none;
+    }
+    .respimg{
+        display: block;
+        height: 450px;
+    }
+    .buttonside{
+        gap: 38px;
+    }
+    .tptexts{
+        gap: 34px;
+        margin-top: 80px;
+    }
+    .orangepic{
+        display: none;
+    }
+    .usualpic{
+        display: none;
+    }
+    .orangepic2{
+        display: block;
+        margin-right: 20px;
+    }
+    .usualpic2{
+        display: block;
+    }
+    .images{
+        justify-content: center;
+        padding: 0% 5% 8% 5%;
+    }
+    .bttexts{
+        flex-direction: row;
+        gap: 95px;
+        padding: 0 4% 18% 5%;
+    }
+    h2{
+        text-align: start;
+        padding: 0 0 0 0;
+    }
+    .btmp{
+        text-align: start;
+    }
+    .bottom{
+        grid-template-columns: auto auto;
+        column-gap: 72px;
+        row-gap: 69px;
+        padding: 0 12.5% 18.5% 5%;
+    }
+    .box{
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+    h3{
+        text-align: start;
+        padding: 0 30% 0 0 ;
+    }
+    .boxp{
+        text-align: start;
+    }
+    .footer{
+        padding: 0 0 6% 0;
+    }
+}
+
+
+@media screen and (min-width:1420px){
+    .header{
+        padding: 5% 11% 6% 11%;
+    }
+    .respimg2{
+        display: block;
+        height: 240px;
+        margin-left: 30px;
+    }
+    .respimg{
+        display: none;
+    }
+    .respimg3{
+        display: block;
+        width: 540px;
+        height: 480px;
+    }
+    .fbutton{
+        width: 175px;
+        height: 58px;
+    }
+    .top{
+        padding: 0 0 2.5% 0;
+    }
+    .tptexts{
+        padding: 0 0 0 11%;
+        gap: 24px;
+        margin-top: 60px;
+    }
+    h1{
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .tpp{
+        font-size: 18px;
+        line-height: 26px;
+        margin-right: 120px;
+        margin-bottom: 20px;
+    }
+    .buttonside{
+        gap: 40px;
+    }
+    .sbutton{
+        width: 175px;
+        height: 58px;
+    }
+    .bottom{
+        grid-template-columns: auto auto auto auto;
+        justify-items: center;
+        align-items: center;
+        padding: 0 11% 9% 11.5%;
+        gap: 34px;
+    }
+    .firstre{
+        display: block;
+        height: 240px;
+        margin-top: 28%;
+    }
+    .orangepic2{
+        display: none;
+    }
+    .orangepic3{
+        display: block;
+    }
+    h3{
+        padding: 0 30% 0 0;
+    }
+    .footer{
+        padding: 1% 0 2.5% 0;
+    }
+    .boxp{
+        width: 255px;
+    }
+    .parent{
+        display: flex;
+    }
+    .bttexts{
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 5% 10% 8%;
+    }
+    .images{
+        padding: 0 0 10% 0;
+        gap: 40px;
+    }
+    .usualpic2{
+        display: none;
+    }
+    .usualpic3{
+        display: block;
+    }
+    h2{
+        width: 255px;
+    }
+    .btmp{
+        width: 259px;
+        margin-bottom: 0;
+    }
+
+}
